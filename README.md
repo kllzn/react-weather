@@ -1,27 +1,14 @@
-# React + TypeScript + Vite
+Weather app, using React, Typescript, TailwindCSS and weatherAPI.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+Starter screen: 
+![image](https://github.com/kllzn/react-weather/assets/90403907/239490ea-b05e-4613-9bb3-59eaa907ade9)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Just enter any city and get this result (If you enter the name of a country, you will get the weather forecast for its capital): 
+![image](https://github.com/kllzn/react-weather/assets/90403907/f770fd76-c666-4722-9d8f-731196ec2b6c)
 
-## Expanding the ESLint configuration
+You can even use different languages: 
+![image](https://github.com/kllzn/react-weather/assets/90403907/9e57bdef-2613-4199-9a2b-99faa3b05cc8)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+If you entered a city that doesn't exist, you'll have this screen:
+![image](https://github.com/kllzn/react-weather/assets/90403907/ea91d7a8-965f-4ff9-98f6-03b8ffb148c1)
